@@ -1,0 +1,7 @@
+Alex Cevallos
+iOS Programming Assignment
+	My first initial read through of the assignment made me begin to think of how the application code could be stored. I decided to keep the product creation, interface view controllers, and database connection code all separate. Keeping them separate would be easier to debug if something were to go wrong, and would just be easier to change overall.
+	
+	I decided to start with building the product class because that is where the application would generate from. Next I created the database connection class. The database connection class was made a singleton so the other classes could share properties that informed them of the current objects available. Once being assured that the product and database classes were functioning as intended, I worked on a user interface.
+	
+	There was constant debugging and documenting every step of the way. It is easier to debug constantly early, then write a bunch of code only to have something not work. I also decided to build from scratch since I believe I was being tested more on the fundamentals. I also did not invest heavily into the user interface since the time was short.
