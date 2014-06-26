@@ -19,6 +19,15 @@
 		CC35982D1958CB39009425C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3598151958CB39009425C2 /* UIKit.framework */; };
 		CC3598351958CB3A009425C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3598331958CB3A009425C2 /* InfoPlist.strings */; };
 		CC3598371958CB3A009425C2 /* Macys_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3598361958CB3A009425C2 /* Macys_iOSTests.m */; };
+		CC3598411958D7AC009425C2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3598401958D7AC009425C2 /* Storyboard.storyboard */; };
+		CC3598441958D9CB009425C2 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3598431958D9CB009425C2 /* Product.m */; };
+		CC3598471958E544009425C2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3598461958E544009425C2 /* MainViewController.m */; };
+		CC3598491958E577009425C2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3598481958E577009425C2 /* libsqlite3.dylib */; };
+		CC35984C19590AF2009425C2 /* DatabaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CC35984B19590AF1009425C2 /* DatabaseSingleton.m */; };
+		CC35985219594A08009425C2 /* ProductShowCaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC35985119594A08009425C2 /* ProductShowCaseTableViewController.m */; };
+		CCB54F4A195A72DB0070370D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB54F49195A72DB0070370D /* DetailViewController.m */; };
+		CCB54F4C195B8C5D0070370D /* ButtonDownShirt.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB54F4B195B8C5D0070370D /* ButtonDownShirt.png */; };
+		CCB54F4F195BDCED0070370D /* EnlargedPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB54F4E195BDCED0070370D /* EnlargedPhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,21 @@
 		CC3598321958CB3A009425C2 /* Macys_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Macys_iOSTests-Info.plist"; sourceTree = "<group>"; };
 		CC3598341958CB3A009425C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC3598361958CB3A009425C2 /* Macys_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macys_iOSTests.m; sourceTree = "<group>"; };
+		CC3598401958D7AC009425C2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CC3598421958D9CB009425C2 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		CC3598431958D9CB009425C2 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		CC3598451958E544009425C2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CC3598461958E544009425C2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CC3598481958E577009425C2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CC35984A19590AF1009425C2 /* DatabaseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseSingleton.h; sourceTree = "<group>"; };
+		CC35984B19590AF1009425C2 /* DatabaseSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSingleton.m; sourceTree = "<group>"; };
+		CC35985019594A08009425C2 /* ProductShowCaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductShowCaseTableViewController.h; sourceTree = "<group>"; };
+		CC35985119594A08009425C2 /* ProductShowCaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductShowCaseTableViewController.m; sourceTree = "<group>"; };
+		CCB54F48195A72DB0070370D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CCB54F49195A72DB0070370D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CCB54F4B195B8C5D0070370D /* ButtonDownShirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonDownShirt.png; sourceTree = "<group>"; };
+		CCB54F4D195BDCED0070370D /* EnlargedPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargedPhotoViewController.h; sourceTree = "<group>"; };
+		CCB54F4E195BDCED0070370D /* EnlargedPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargedPhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3598491958E577009425C2 /* libsqlite3.dylib in Frameworks */,
 				CC3598141958CB39009425C2 /* CoreGraphics.framework in Frameworks */,
 				CC3598161958CB39009425C2 /* UIKit.framework in Frameworks */,
 				CC3598121958CB39009425C2 /* Foundation.framework in Frameworks */,
@@ -77,6 +102,12 @@
 		CC3598051958CB39009425C2 = {
 			isa = PBXGroup;
 			children = (
+				CC3598401958D7AC009425C2 /* Storyboard.storyboard */,
+				CCB3F4DA195C6D0200C49F84 /* Product Classes */,
+				CCB3F4DB195C6D0C00C49F84 /* Main VC Classes */,
+				CCB3F4DC195C6D1A00C49F84 /* Database Classes */,
+				CCB3F4DD195C6D3E00C49F84 /* Product TVC Classes */,
+				CCB3F4DE195C6D5B00C49F84 /* Detail VC Classes */,
 				CC3598171958CB39009425C2 /* Macys_iOS */,
 				CC3598301958CB3A009425C2 /* Macys_iOSTests */,
 				CC3598101958CB39009425C2 /* Frameworks */,
@@ -96,6 +127,7 @@
 		CC3598101958CB39009425C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC3598481958E577009425C2 /* libsqlite3.dylib */,
 				CC3598111958CB39009425C2 /* Foundation.framework */,
 				CC3598131958CB39009425C2 /* CoreGraphics.framework */,
 				CC3598151958CB39009425C2 /* UIKit.framework */,
@@ -109,6 +141,7 @@
 			children = (
 				CC3598201958CB39009425C2 /* AppDelegate.h */,
 				CC3598211958CB39009425C2 /* AppDelegate.m */,
+				CCB54F4B195B8C5D0070370D /* ButtonDownShirt.png */,
 				CC3598231958CB39009425C2 /* Images.xcassets */,
 				CC3598181958CB39009425C2 /* Supporting Files */,
 			);
@@ -142,6 +175,53 @@
 				CC3598331958CB3A009425C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCB3F4DA195C6D0200C49F84 /* Product Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC3598421958D9CB009425C2 /* Product.h */,
+				CC3598431958D9CB009425C2 /* Product.m */,
+			);
+			name = "Product Classes";
+			sourceTree = "<group>";
+		};
+		CCB3F4DB195C6D0C00C49F84 /* Main VC Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC3598451958E544009425C2 /* MainViewController.h */,
+				CC3598461958E544009425C2 /* MainViewController.m */,
+			);
+			name = "Main VC Classes";
+			sourceTree = "<group>";
+		};
+		CCB3F4DC195C6D1A00C49F84 /* Database Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC35984A19590AF1009425C2 /* DatabaseSingleton.h */,
+				CC35984B19590AF1009425C2 /* DatabaseSingleton.m */,
+			);
+			name = "Database Classes";
+			sourceTree = "<group>";
+		};
+		CCB3F4DD195C6D3E00C49F84 /* Product TVC Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC35985019594A08009425C2 /* ProductShowCaseTableViewController.h */,
+				CC35985119594A08009425C2 /* ProductShowCaseTableViewController.m */,
+			);
+			name = "Product TVC Classes";
+			sourceTree = "<group>";
+		};
+		CCB3F4DE195C6D5B00C49F84 /* Detail VC Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCB54F48195A72DB0070370D /* DetailViewController.h */,
+				CCB54F49195A72DB0070370D /* DetailViewController.m */,
+				CCB54F4D195BDCED0070370D /* EnlargedPhotoViewController.h */,
+				CCB54F4E195BDCED0070370D /* EnlargedPhotoViewController.m */,
+			);
+			name = "Detail VC Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +301,8 @@
 			files = (
 				CC35981C1958CB39009425C2 /* InfoPlist.strings in Resources */,
 				CC3598241958CB39009425C2 /* Images.xcassets in Resources */,
+				CC3598411958D7AC009425C2 /* Storyboard.storyboard in Resources */,
+				CCB54F4C195B8C5D0070370D /* ButtonDownShirt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3598441958D9CB009425C2 /* Product.m in Sources */,
 				CC3598221958CB39009425C2 /* AppDelegate.m in Sources */,
+				CC35985219594A08009425C2 /* ProductShowCaseTableViewController.m in Sources */,
+				CCB54F4F195BDCED0070370D /* EnlargedPhotoViewController.m in Sources */,
 				CC35981E1958CB39009425C2 /* main.m in Sources */,
+				CC35984C19590AF2009425C2 /* DatabaseSingleton.m in Sources */,
+				CC3598471958E544009425C2 /* MainViewController.m in Sources */,
+				CCB54F4A195A72DB0070370D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +448,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Macys_iOS/Macys_iOS-Prefix.pch";
 				INFOPLIST_FILE = "Macys_iOS/Macys_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +462,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Macys_iOS/Macys_iOS-Prefix.pch";
 				INFOPLIST_FILE = "Macys_iOS/Macys_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +527,7 @@
 				CC35983C1958CB3A009425C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC35983D1958CB3A009425C2 /* Build configuration list for PBXNativeTarget "Macys_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +536,7 @@
 				CC35983F1958CB3A009425C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
